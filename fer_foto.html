@@ -1,13 +1,33 @@
-<div id="seccio_2" class="seccio">
-  <div id="div_foto">    <!-- contenidor de la vista prèvia de la foto feta -->
-    <img id="foto">
-    <i id="icona_camera" class="fa-solid fa-image"></i>    <!-- icona que ocupa l'espai quan encara no s'ha fet la foto -->
-  </div>
-  <div id="div_control">    <!-- contenidor dels botons per fer i desar la foto -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=3">
+        <meta name="description" content="Descripció de la nostra webapp.">
+        <link rel="stylesheet" href="index 2.css">
+        <title>SMILE</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css">
+        <div id="Seccio_4" class="seccio">
+        </div>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    </head>
+    <body>
+      <div id="seccio_2" class="seccio">
+      <div id="div_foto">    <!-- contenidor de la vista prèvia de la foto feta -->
+      <img id="foto">
+      <i id="icona_camera" class="fa-solid fa-image"></i>    <!-- icona que ocupa l'espai quan encara no s'ha fet la foto -->
+      </div>
+      <div id="div_control">    <!-- contenidor dels botons per fer i desar la foto -->
       <label for="obturador">    <!-- etiqueta auxiliar per ocultar el botó predeterminat -->
-        <i class="fa-solid fa-circle-dot"></i>    <!-- icona del botó per fer la foto -->
+      <i class="fa-solid fa-circle-dot"></i>    <!-- icona del botó per fer la foto -->
       </label>
       <input type="file" accept="image/*" id="obturador" capture="camera" /> <!-- element que captura la imatge -->
       <i id="desa" class="fa-solid fa-check"></i>    <!-- icona del botó per desar la foto -->
-  </div>
-</div>
+      </div>
+      </div>
+    </body>
+</html>
